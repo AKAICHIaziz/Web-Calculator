@@ -1,0 +1,139 @@
+.purple-bg {
+    background-color: #7a0192;
+}
+
+.white {
+    color: rgb(255, 255, 255);
+} 
+
+body{
+    background: rgb(86,5,184);
+background: radial-gradient(circle, rgba(86,5,184,1) 0%, rgba(118,1,186,1) 44%, rgba(201,0,255,1) 100%);
+}
+
+.rectangle {
+    width: 350px;
+    height: 600px;
+    background: rgb(32, 32, 46);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    /*border: 3px solid rgba(255, 255, 255);*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .2);
+}
+
+.screen {
+    width: 330px;
+    height: 130px;
+    background-color: rgb(232, 203, 255);
+    border-radius: 16px;
+    transform: translate(2.5%, 10%);
+    border: 3px solid rgb(0, 0, 0);
+    color: black;
+    font-size: 30px;
+}
+.calculator-screen-input {
+    width: 300px;
+    height: 130px;
+    border-radius: 16px;
+    font-size: 50px;
+    background-color: #ffffff;
+    color: #000000;
+    text-align: left;
+    padding-right: 20px;
+    padding-left: 10px;
+    transform: translate(7.5%, 45%);
+  }
+
+.input {
+    padding-left: 4%;
+}
+
+.output {
+    padding-top: 3%;
+    padding-left: 40%;
+    font-size: 50px;
+}
+
+
+.rect {
+    width: 70px;
+    height: 70px;
+    background: rgb(62, 56, 86);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+    margin: 5px;
+}
+
+.rectcolor{
+    background: rgb(187, 0, 255);
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.equal {
+    height: 145px;
+    width: 70px;
+    margin-left: 5px;
+    background: rgb(62, 56, 86);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.operations{
+    transform: translate(5.5%, 11.5%);
+}
+
+.mr-2{
+    margin-right: 15px;
+}
+
+.operator{
+    width: 70px;
+    height: 70px;
+    background: rgb(62, 56, 86);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.casio{
+    padding: 0; 
+    margin-bottom: -55px; 
+    margin-top: 10px; 
+    text-align:center;
+}
+
+  
+
+
+
